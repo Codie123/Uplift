@@ -1,13 +1,5 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------------
 
-  Theme Name: Axtra - Digital Agency HTML5 Template
-  Author: Crowdyflow
-  Support: habib.crowdyflow@gmail.com
-  Description: BUILDY – is a  Constructor HTML5 template that comes with high-quality 3 Pre build Home Pages and many built-in awesome inner pages  which are perfect for any creative agencies, designers, digital agencies, freelancers, developers, designers, marketing, startup, blog and portfolio.
-  Version: 1.0
-
------------------------------------------------------------------------------------
 
 /************ TABLE OF CONTENTS ***************
 
@@ -53,6 +45,7 @@
 /*----------------------------------------*/
 /*  01. VARIBALES CSS START
 /*----------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;900&display=swap');
 :root {
   --primary: #00adee;
   --secondary: #2c2c2c;
@@ -95,6 +88,7 @@
   --d-black: #1A1A1A;
   --d-black-2: #171717;
   --d-black-3: #1A1A1A;
+
 }
 
 @font-face {
@@ -583,7 +577,7 @@
 }
 
 body {
-  font-family: "Kanit", sans-serif;
+  font-family: 'Jost', sans-serif;
 }
 
 html {
@@ -4872,7 +4866,7 @@ img {
   z-index: 99;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  font-family: "Kanit", sans-serif;
+  font-family: 'Jost', sans-serif;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -6675,7 +6669,7 @@ img {
 }
 .hero__title {
   font-weight: 500;
-  font-size: 150px;
+  font-size: 109px;
   line-height: 1;
   color: var(--white);
   margin-top: 55px;
@@ -6689,18 +6683,18 @@ img {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero__title {
-    font-size: 100px;
+    font-size: 91px;
     line-height: 0.9;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero__title {
-    font-size: 80px;
+    font-size: 67px;
   }
 }
 @media only screen and (max-width: 767px) {
   .hero__title {
-    font-size: 48px;
+    font-size: 34px;
   }
 }
 /* .hero__title::after {
@@ -6744,7 +6738,7 @@ img {
   }
 }
 .hero__title-wrapper {
-  max-width: 990px;
+  /* max-width: 990px; */
   position: relative;
   margin-bottom: 105px;
 }
@@ -6755,7 +6749,7 @@ img {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero__title-wrapper {
-    max-width: 800px;
+    /* max-width: 800px; */
     margin-bottom: 20px;
   }
 }
@@ -6793,7 +6787,7 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero__sub-title {
     font-size: 16px;
-    bottom: -10px;
+    bottom: -100px;
     right: 30px;
   }
 }
@@ -7253,7 +7247,7 @@ img {
 /*  15. SLIDER CSS START
 /*----------------------------------------*/
 .roll__area {
-  background-color: var(--primary);
+  background: linear-gradient(86deg, rgba(1,173,238,1) , rgb(86 95 102));
   padding: 31px 10px;
 }
 .roll__area-2 {
@@ -30081,5 +30075,12 @@ body {
   .cuz-ft-I-flex{
     justify-content: center;
   }
+}
+
+.cuz-js{
+  justify-content: space-between;
+}
+.cuz-mr-top{
+  margin-top: 5rem;
 }
 /* ends */
