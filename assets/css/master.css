@@ -16315,6 +16315,10 @@ img {
   display: inline-block;
   position: relative;
 }
+.solution__img-1 img{
+  border-radius: 0 0 290px 230px;
+
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .solution__img-1 {
     margin-left: 30px;
@@ -16366,6 +16370,9 @@ img {
   float: right;
   margin-top: 60px;
 }
+.solution__img-2 img{
+  border-radius:  290px 290px;
+}
 .solution__img-2::after {
   position: absolute;
   content: "";
@@ -16381,6 +16388,9 @@ img {
   position: relative;
   float: right;
   margin-top: 60px;
+}
+.solution__img-3 img{
+  border-radius:220px 0 0 200px
 }
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
   .solution__img-3 img {
