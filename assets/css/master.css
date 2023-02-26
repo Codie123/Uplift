@@ -786,6 +786,15 @@ img {
   display: block;
   width: 100%;
 }
+.logo-dark img{
+  transform: scale(1.5);
+  padding-left: 2rem ;
+}
+@media(max-width:426px){
+  .logo-dark img{
+    transform: scale(1.2);
+  }
+}
 
 .font-20 {
   font-size: 20px !important;
@@ -5567,8 +5576,11 @@ img {
   }
 }
 .offcanvas__logo {
-  padding: 55px 0 55px 0px;
+  padding: 55px 0 55px 38px;
   /* border-bottom: 1px solid var(--black-4); */
+}
+.offcanvas__logo img{
+  transform: scale(1.5);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .offcanvas__logo {
@@ -5577,12 +5589,12 @@ img {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .offcanvas__logo {
-    padding: 30px 0 30px 15px;
+    padding: 30px 0 30px 48px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .offcanvas__logo {
-    padding: 30px 0 30px 15px;
+    padding: 30px 0 30px 45px;
   }
 }
 .offcanvas__social {
@@ -21660,6 +21672,7 @@ img {
 }
 .footer__logo-3 img {
   margin-bottom: 30px;
+  transform: scale(1.5);
 }
 .footer__logo-3 p {
   max-width: 310px;
