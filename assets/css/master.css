@@ -789,10 +789,17 @@ img {
 .logo-dark img{
   transform: scale(1.5);
   padding-left: 2rem ;
+  width: 100%;
+}
+@media(max-width:1025px){
+  .logo-dark img{
+    width: 19%;
+  }
 }
 @media(max-width:426px){
   .logo-dark img{
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
+    width: 50%;
   }
 }
 
@@ -5580,7 +5587,8 @@ img {
   /* border-bottom: 1px solid var(--black-4); */
 }
 .offcanvas__logo img{
-  transform: scale(1.5);
+  /* transform: scale(1.5); */
+  width: 100%;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .offcanvas__logo {
@@ -21672,7 +21680,8 @@ img {
 }
 .footer__logo-3 img {
   margin-bottom: 30px;
-  transform: scale(1.5);
+  transform: scale(.5);
+  width: 100%;
 }
 .footer__logo-3 p {
   max-width: 310px;
