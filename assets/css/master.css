@@ -796,6 +796,11 @@ img {
     width: 19%;
   }
 }
+@media(max-width:700px){
+  .logo-dark img{
+    width: 34%;
+  }
+}
 @media(max-width:426px){
   .logo-dark img{
     /* transform: scale(1.2); */
@@ -5583,7 +5588,7 @@ img {
   }
 }
 .offcanvas__logo {
-  padding: 55px 0 55px 38px;
+  padding: 55px 0 55px 0;
   /* border-bottom: 1px solid var(--black-4); */
 }
 .offcanvas__logo img{
@@ -30135,7 +30140,8 @@ body {
 }
 @media only screen and (max-width: 767px){
   .cuz-ft{
-    font-size: 39px;
+    font-size: 25px;
   }
 }
+
 /* ends */
